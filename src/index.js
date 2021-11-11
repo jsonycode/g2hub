@@ -1,21 +1,31 @@
-console.log("jay");
+
+
+import {bodyStyle, titleText} from './dom';
+
+bodyStyle();
+titleText('Hello from the Dom 🔥' );
 
 
 
-function makeCoffee( sugar, milk )
-{
-    var instructions = "Boil water,";
-    
-    instructions += " pour into cup,";
-    
-    instructions += " add coffee granules,";
-    
-    instructions += " add " + sugar + " spoons of sugar,";
-    
-    instructions += " add " + milk + "% milk.";
-    
-    return instructions;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const destination = (place) =>{
+    console.log(` I would love to visit ${place}`);
 }
-
-console.log( makeCoffee( 2, 20 ) );
-
+destination('Greece');
+destination('Dubai');
+destination('Paris');
